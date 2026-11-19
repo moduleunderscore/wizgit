@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Hangar1 Digital Stories: propuesta de Wizard para convertir contenidos existentes en rutas web experienciales conectadas con audiencias y acciones comerciales.">
+  <meta name="theme-color" content="#050505">
+  <title>Hangar1 Digital Stories × Wizard — Ecosistema de historias</title>
+  <link rel="icon" href="assets/images/h1-icon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/anybody-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/barlow-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/images/fer-track-hero.png" as="image" type="image/png">
+  <link rel="stylesheet" href="assets/styles.css?v=3.35.0">
+</head>
+<body>
+  <a class="skip-link" href="#slide-1">Saltar a la propuesta</a>
+
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="i-story" viewBox="0 0 24 24"><path d="M5 4.5h10.5A3.5 3.5 0 0 1 19 8v11.5H8.5A3.5 3.5 0 0 1 5 16V4.5Z"/><path d="M8.5 19.5A3.5 3.5 0 0 0 12 16V4.5M9 9h6M9 12h4"/></symbol>
+    <symbol id="i-heritage" viewBox="0 0 24 24"><path d="M4 19h16M6 16h12M7 8h10l1 8H6l1-8Z"/><path d="M9 8V5h6v3M10 11h4"/></symbol>
+    <symbol id="i-decision" viewBox="0 0 24 24"><path d="M6 4v5a3 3 0 0 0 3 3h9M6 20v-5a3 3 0 0 1 3-3"/><path d="m15 9 3 3-3 3"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.5 6.5a5 5 0 0 0-6.4 6.4l-4.6 4.6 3 3 4.6-4.6a5 5 0 0 0 6.4-6.4l-3 3-3-3 3-3Z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20S4 15.5 4 9.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 8 3.5C20 15.5 12 20 12 20Z"/></symbol>
+    <symbol id="i-detail" viewBox="0 0 24 24"><circle cx="10" cy="10" r="5"/><path d="m14 14 6 6M10 7v6M7 10h6"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 7h4l1.5-2h5L16 7h4v11H4V7Z"/><circle cx="12" cy="12.5" r="3.5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4V8Z"/></symbol>
+    <symbol id="i-reels" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="m9 8 6 4-6 4V8ZM4 8h16"/></symbol>
+    <symbol id="i-site" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 8h18M7 6h.01M10 6h.01M8 12h8M8 15h5"/></symbol>
+    <symbol id="i-contact" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9h8M8 12h5"/></symbol>
+    <symbol id="i-team" viewBox="0 0 24 24"><circle cx="9" cy="9" r="3"/><circle cx="17" cy="10" r="2"/><path d="M3 20a6 6 0 0 1 12 0M14 16a5 5 0 0 1 7 4"/></symbol>
+    <symbol id="i-light" viewBox="0 0 24 24"><path d="M9 18h6M9.5 21h5M8 14a6 6 0 1 1 8 0l-1 2H9l-1-2Z"/></symbol>
+    <symbol id="i-media" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="14" rx="1"/><path d="m9 9 6 3-6 3V9Z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m9 6-6 6 6 6M15 6l6 6-6 6M14 4l-4 16"/></symbol>
+    <symbol id="i-deliver" viewBox="0 0 24 24"><path d="M4 7h11v10H4V7ZM15 10h3l2 3v4h-5v-7Z"/><circle cx="8" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="1"/><path d="M8 3v4M16 3v4M4 10h16M8 14h3M13 14h3"/></symbol>
+    <symbol id="i-invest" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15 8.5c-.7-.8-1.7-1-3-1-1.7 0-3 .8-3 2s1 1.8 3 2.2 3 1 3 2.3-1.3 2.2-3 2.2c-1.4 0-2.5-.4-3.3-1.2M12 5.5v13"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M6 21V4M7 5h11l-2 4 2 4H7"/></symbol>
+    <symbol id="i-browser" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M3 8h18M6 6h.01M9 6h.01M12 6h.01"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.1 0l2-2a5 5 0 0 0-7.1-7.1l-1.1 1.1M14 11a5 5 0 0 0-7.1 0l-2 2A5 5 0 0 0 12 20.1l1.1-1.1"/></symbol>
+    <symbol id="i-responsive" viewBox="0 0 24 24"><rect x="3" y="5" width="13" height="10" rx="1"/><rect x="16" y="9" width="5" height="10" rx="1"/><path d="M7 19h5M9.5 15v4"/></symbol>
+    <symbol id="i-nodes" viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="m7 12 10-6M7 12l10 6"/></symbol>
+    <symbol id="i-tech" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="1"/><path d="M9 9h6v6H9zM8 2v3M12 2v3M16 2v3M8 19v3M12 19v3M16 19v3M2 8h3M2 12h3M2 16h3M19 8h3M19 12h3M19 16h3"/></symbol>
+    <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M4 7h16v4a2 2 0 0 0 0 4v4H4v-4a2 2 0 0 0 0-4V7Z"/><path d="M9 7v12M13 11h3M13 15h3"/></symbol>
+  </svg>
+
+  <main class="deck" id="propuesta" data-theme="dark" aria-label="Propuesta comercial Hangar1">
+    <header class="deck-header" aria-label="Encabezado de la propuesta">
+      <a class="brand" href="#slide-1" data-go="0" aria-label="Volver a la primera slide">
+        <img src="assets/images/hangar1-logo-official-safe.png" alt="Hangar1" width="1600" height="474">
+      </a>
+      <div class="web-address" aria-hidden="true">
+        <span class="web-address__controls"><i></i><i></i><i></i></span>
+        <svg><use href="#i-link"/></svg>
+        <span class="web-address__protocol">https://</span><strong id="current-route">hangar1.mx/digital-stories</strong>
+        <span class="web-address__status"><i></i>LIVE</span>
+        <span class="web-address__viewport"><svg><use href="#i-responsive"/></svg><b id="web-viewport">DESKTOP</b></span>
+      </div>
+      <p class="deck-counter" aria-live="polite"><span id="current-slide">01</span><span aria-hidden="true"> / </span><span>07</span></p>
+    </header>
+
+    <div class="slides" id="slides">
+      <section class="slide slide--hero is-active" id="slide-1" data-theme="dark" data-slide="1" data-chapter="DIGITAL STORIES" data-route="hangar1.mx/digital-stories" aria-labelledby="slide-1-title">
+        <img class="slide-media hero-media" src="assets/images/fer-track-hero.png" alt="Fernando Miller presentando desde la pista junto a un auto amarillo" width="1536" height="864" fetchpriority="high" decoding="async">
+        <div class="scene-shade scene-shade--hero" aria-hidden="true"></div>
+        <div class="scene-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+
+        <div class="hero-telemetry telemetry" aria-hidden="true">
+          <p><span>SUBJECT</span><strong>FERNANDO MILLER</strong></p>
+          <p><span>ENVIRONMENT</span><strong>HANGAR1 / MX</strong></p>
+          <p><span>OUTPUT</span><strong>08–10 DIGITAL STORIES</strong></p>
+        </div>
+
+        <div class="slide__inner hero-layout">
+          <div class="hero-title-block">
+            <img class="hero-hangar-logo" src="assets/images/hangar1-logo-official-safe.png" alt="Hangar1" width="1600" height="474" decoding="async">
+            <p class="eyebrow">El universo Hangar1, conectado</p>
+            <h1 id="slide-1-title" class="hero-program-title" aria-label="Hangar1 Digital Stories"><span class="sr-only">Hangar1 </span><span class="title-solid">DIGITAL</span><span class="title-outline">STORIES</span></h1>
+            <p class="hero-coordinate" aria-hidden="true">19.4326° N · 99.1332° W / STORY ARCHITECTURE</p>
+          </div>
+
+          <div class="hero-wizard-signature" aria-label="Una propuesta creada por Wizard">
+            <img src="assets/images/wizard-logo.png" alt="Wizard — Agencia aplicada" width="1800" height="630" decoding="async">
+          </div>
+
+          <div class="hero-brief web-surface" data-ui="COMPONENT / HERO">
+            <p class="micro-label">MUCHOS CONTENIDOS // MÁS RUTAS DE ENTRADA</p>
+            <p class="hero-statement"><strong>Historias que conectan</strong><em>en un ecosistema comercial web.</em></p>
+            <p class="lede">Hoy contenidos distintos desembocan en el mismo destino. Este ecosistema abre rutas web por audiencia para continuar la historia, resolver dudas y conducir a una acción comercial.</p>
+            <div class="hero-badges" aria-label="Tres capas del ecosistema">
+              <span><svg><use href="#i-story"/></svg>Contenido</span>
+              <span><svg><use href="#i-site"/></svg>Experiencia relevante</span>
+              <span><svg><use href="#i-contact"/></svg>Acción comercial</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="scene-footer" aria-hidden="true"><span>H1DS / 01</span><i></i><span>PROPOSAL SYSTEM ONLINE</span></div>
+      </section>
+
+      <section class="slide slide--story" id="slide-2" data-theme="dark" data-slide="2" data-chapter="CONNECT" data-route="hangar1.mx/como-conectamos" aria-labelledby="slide-2-title" aria-hidden="true">
+        <img class="slide-media story-media" src="assets/images/cornvette-story.png" alt="Cornvette de Hangar1 en una toma editorial exterior" width="1536" height="864" loading="lazy" decoding="async">
+        <div class="scene-shade scene-shade--story" aria-hidden="true"></div>
+        <div class="scene-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+
+        <div class="slide__inner story-layout connect-layout">
+          <div class="story-title-block connect-heading">
+            <p class="eyebrow">Una misma voz. Más rutas de entrada.</p>
+            <h2 id="slide-2-title"><span class="title-solid">¿CÓMO</span><em class="title-outline">CONECTAMOS?</em></h2>
+            <p class="story-question">Llevamos cada historia hacia la audiencia correcta y la continuamos en una web hecha para ese interés.</p>
+          </div>
+
+          <div class="connection-path web-surface" data-ui="ROUTER / CONTENT → AUDIENCE → WEB" role="group" aria-label="Los contenidos se conectan con audiencias y páginas web experienciales">
+            <article class="connection-node" style="--delay:.05s">
+              <div class="connection-node__title"><svg aria-hidden="true"><use href="#i-media"/></svg><span>LO QUE YA EXISTE</span><strong>CONTENIDOS</strong></div>
+              <p>Prime Service · First Class · TAA · Fer Miller · Música · TV · Hell Ram · Corvette</p>
+            </article>
+            <i class="connection-arrow" aria-hidden="true">↓</i>
+            <article class="connection-node" style="--delay:.14s">
+              <div class="connection-node__title"><svg aria-hidden="true"><use href="#i-team"/></svg><span>QUIÉN CONECTA</span><strong>AUDIENCIAS</strong></div>
+              <p>Muscle car fans · tech heads · vintage fans · fans históricos · marketing automotriz · quienes cuidan sus autos · fans de Jeeps</p>
+            </article>
+            <i class="connection-arrow" aria-hidden="true">↓</i>
+            <article class="connection-node connection-node--accent" style="--delay:.23s">
+              <div class="connection-node__title"><svg aria-hidden="true"><use href="#i-browser"/></svg><span>DÓNDE CONTINÚA</span><strong>WEBS</strong></div>
+              <p>Nuevos funnels experienciales · gaming · trivias · reproductores de música y TV · preventas · eventos digitales · lealtad y cupones · calculadoras · progreso de tuning · recomendaciones automáticas · asistentes virtuales · interacción con Fer Miller</p>
+            </article>
+            <div class="connection-summary">
+              <strong>CONTENIDO RELEVANTE</strong><i>×</i><strong>AUDIENCIA CORRECTA</strong><i>=</i><span>MÁS PUERTAS DE ENTRADA</span>
+              <a href="https://firstclass.hangar1.com.mx/300zx/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#i-link"/></svg>CASO 300ZX ↗</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide slide--funnel" id="slide-3" data-theme="dark" data-slide="3" data-chapter="CAPITALIZE" data-route="hangar1.mx/como-capitalizamos" aria-labelledby="slide-3-title" aria-hidden="true">
+        <img class="slide-media funnel-media" src="assets/images/fer-camera-flow.png" alt="Fernando Miller durante una producción frente a cámara" width="1536" height="864" loading="lazy" decoding="async">
+        <div class="scene-shade scene-shade--funnel" aria-hidden="true"></div>
+        <div class="scene-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+
+        <div class="slide__inner funnel-layout capital-layout">
+          <div class="funnel-heading capital-heading">
+            <p class="eyebrow">De la emoción a la conversión.</p>
+            <h2 id="slide-3-title"><span class="title-solid">¿CÓMO</span><em class="title-outline">CAPITALIZAMOS?</em></h2>
+            <p>Trasladamos la emoción de un contenido bien hecho a una web que la convierte en intención, contexto y acción comercial.</p>
+          </div>
+
+          <div class="capital-flow web-surface" data-ui="COMMERCIAL ENGINE / EMOTION → WEB → ACTION" role="group" aria-label="Las historias se convierten en oportunidades comerciales mediante experiencias web">
+            <div class="capital-signals">
+              <span>LA EMOCIÓN</span>
+              <strong>PASIÓN</strong>
+              <strong>HERENCIA</strong>
+              <strong>HISTORIA</strong>
+              <strong>EXPERTISE</strong>
+            </div>
+
+            <i class="capital-arrow" aria-hidden="true">→</i>
+
+            <div class="capital-engine">
+              <svg aria-hidden="true"><use href="#i-browser"/></svg>
+              <span>WEB EXPERIENCIAL</span>
+              <strong>CAPITALIZA LA EMOCIÓN</strong>
+              <p>Continúa la historia <i>+</i> resuelve dudas <i>+</i> comunica promociones <i>+</i> actualiza la oferta comercial.</p>
+            </div>
+
+            <i class="capital-arrow" aria-hidden="true">→</i>
+
+            <div class="capital-actions" aria-label="Acciones comerciales">
+              <span>LA CONVERSIÓN</span>
+              <strong><svg><use href="#i-contact"/></svg>CONTACTO</strong>
+              <strong><svg><use href="#i-invest"/></svg>COTIZACIÓN</strong>
+              <strong><svg><use href="#i-calendar"/></svg>CITA</strong>
+              <strong><svg><use href="#i-team"/></svg>COLABORACIÓN</strong>
+            </div>
+
+            <div class="capital-result">
+              <span>WIZARD / ESPECIALIDAD</span>
+              <strong>ESTRATEGIA COMERCIAL + CREATIVIDAD</strong>
+              <p>Usamos tecnologías actuales para crear experiencias, sistemas, tácticos y contenidos que convierten interés en un ingreso correcto al funnel comercial y aumentan la posibilidad de conversión.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide slide--wizard" id="slide-4" data-theme="dark" data-slide="4" data-chapter="BUILD" data-route="hangar1.mx/propuesta-wiz" aria-labelledby="slide-4-title" aria-hidden="true">
+        <img class="slide-media wizard-media" src="assets/images/fer-process.png" alt="Fernando Miller explicando un producto técnico en el taller" width="1536" height="864" loading="lazy" decoding="async">
+        <div class="scene-shade scene-shade--wizard" aria-hidden="true"></div>
+        <div class="scene-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+
+        <div class="slide__inner wizard-layout ecosystem-wizard-layout">
+          <div class="wizard-heading ecosystem-wizard-heading">
+            <p class="eyebrow">¿Cómo lo hacemos?</p>
+            <h2 id="slide-4-title"><span class="title-solid">PROPUESTA WIZ</span><em class="title-outline">ECOSISTEMA DE CAPTACIÓN COMERCIAL</em><em class="title-outline proposal-title-detail">CON EXPERIENCIAS WEB</em></h2>
+            <p class="wizard-declaration">Wizard lo hace de principio a fin.</p>
+            <p>Ocho o más sitios experienciales conectan intereses distintos. Wizard construye cada historia con la experiencia de Fer Miller y la dirige hacia una acción comercial.</p>
+            <p class="capture-kicker">Cada experiencia digital responde a un objetivo distinto.</p>
+            <div class="capture-toolkit" aria-label="Mecanismos de captación comercial">
+              <span><svg aria-hidden="true"><use href="#i-contact"/></svg>BOTONES + CTA</span>
+              <span><svg aria-hidden="true"><use href="#i-decision"/></svg>ENCUESTAS</span>
+              <span><svg aria-hidden="true"><use href="#i-media"/></svg>VIDEO + RESPUESTAS</span>
+              <span><svg aria-hidden="true"><use href="#i-ticket"/></svg>PROMOS + CUPONES</span>
+            </div>
+          </div>
+
+          <div class="wizard-ecosystem" role="group" aria-label="Diez ejemplos de sitios experienciales conectados con audiencias, conversión y capitalización">
+            <svg class="ecosystem-links" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M29 10 L40 30" pathLength="1"/>
+              <path d="M29 30 L37 39" pathLength="1"/>
+              <path d="M29 50 L37 50" pathLength="1"/>
+              <path d="M29 70 L40 60" pathLength="1"/>
+              <path d="M71 10 L60 30" pathLength="1"/>
+              <path d="M71 30 L63 39" pathLength="1"/>
+              <path d="M71 50 L63 50" pathLength="1"/>
+              <path d="M71 70 L60 60" pathLength="1"/>
+              <path d="M29 88 L44 66" pathLength="1"/>
+              <path d="M71 88 L56 66" pathLength="1"/>
+            </svg>
+            <article class="wizard-orbit wizard-site--taa"><svg aria-hidden="true"><use href="#i-nodes"/></svg><span>AUTOMOTIVE MARKETING</span><strong>TAA</strong><small>Audiencia automotriz natural + marcas que buscan conexión y resultados.</small></article>
+            <article class="wizard-orbit wizard-site--prime"><svg aria-hidden="true"><use href="#i-wrench"/></svg><span>SERVICIO PREMIUM</span><strong>Prime Service</strong><small>Calidad, confianza y cuidado para quienes no buscan performance.</small></article>
+            <article class="wizard-orbit wizard-site--first"><svg aria-hidden="true"><use href="#i-detail"/></svg><span>ALTA GAMA</span><strong>First Class</strong><small>Historias y servicios para propietarios de autos extraordinarios.</small></article>
+            <article class="wizard-orbit wizard-site--fer"><svg aria-hidden="true"><use href="#i-contact"/></svg><span>COMUNIDAD</span><strong>Fer Miller</strong><small>Interacción directa, criterio experto y conversación con los usuarios.</small></article>
+
+            <div class="wizard-core">
+              <span>OBJETIVO CENTRAL</span>
+              <strong>CONVERSIÓN</strong>
+              <i>+</i>
+              <strong>CAPITALIZACIÓN</strong>
+              <p>Cada afinidad encuentra su entrada correcta al funnel comercial.</p>
+            </div>
+
+            <article class="wizard-orbit wizard-site--tv"><svg aria-hidden="true"><use href="#i-play"/></svg><span>ENTRETENIMIENTO</span><strong>HangarTV</strong><small>Contenido segmentado para descubrir, aprender y divertirse.</small></article>
+            <article class="wizard-orbit wizard-site--hell"><svg aria-hidden="true"><use href="#i-flag"/></svg><span>OFF-ROAD</span><strong>Hell Ram</strong><small>Aventura, equipo y comunidad para quienes viven fuera del camino.</small></article>
+            <article class="wizard-orbit wizard-site--corvette"><svg aria-hidden="true"><use href="#i-tech"/></svg><span>PERFORMANCE</span><strong>Corvette</strong><small>Velocidad, ingeniería y pasión para fans del alto desempeño.</small></article>
+            <article class="wizard-orbit wizard-site--track"><svg aria-hidden="true"><use href="#i-media"/></svg><span>EXPERIENCIA</span><strong>Track Day</strong><small>Pista, música y salidas que convierten fandom en comunidad.</small></article>
+            <article class="wizard-orbit wizard-site--promo"><svg aria-hidden="true"><use href="#i-ticket"/></svg><span>ACTIVACIÓN COMERCIAL</span><strong>Promos &amp; Cupones</strong><small>Beneficios y campañas para activar contacto, visita o recompra.</small></article>
+            <article class="wizard-orbit wizard-site--real"><svg aria-hidden="true"><use href="#i-team"/></svg><span>CASOS HANGAR1</span><strong>Proyectos reales</strong><small>Clientes reales, autos reales y productos aplicados en proyectos reales: del reto al resultado.</small></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide slide--annual" id="slide-5" data-theme="dark" data-slide="5" data-chapter="YEAR" data-route="hangar1.mx/calendario/2026" aria-labelledby="slide-5-title" aria-hidden="true">
+        <img class="slide-media annual-media" src="assets/images/h1-program-year.png" alt="Cornvette y RealTruck juntos en el almacén de Hangar1" width="1536" height="864" loading="lazy" decoding="async">
+        <div class="scene-shade scene-shade--annual" aria-hidden="true"></div>
+        <div class="scene-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+
+        <div class="slide__inner annual-layout">
+          <div class="annual-heading">
+            <p class="eyebrow">Una forma sencilla de trabajar</p>
+            <h2 id="slide-5-title"><span class="title-solid">12 MESES</span><em class="title-outline">8–10 EXPERIENCIAS</em></h2>
+            <p>Ocho experiencias base y hasta dos extensiones, proyecto por proyecto.</p>
+          </div>
+
+          <p class="timing-note"><span>TIMING / REF.</span> Aproximadamente 5–6 semanas por proyecto, ajustable al alcance y al programa.</p>
+
+          <div class="annual-map web-surface" data-ui="TIMELINE / 12 MONTHS" role="group" aria-label="Mapa ilustrativo de enero a diciembre con ocho experiencias web base y hasta dos extensiones opcionales">
+            <div class="annual-months" aria-hidden="true"><span></span><span>ENE</span><span>FEB</span><span>MAR</span><span>ABR</span><span>MAY</span><span>JUN</span><span>JUL</span><span>AGO</span><span>SEP</span><span>OCT</span><span>NOV</span><span>DIC</span></div>
+            <div class="annual-row annual-row--content">
+              <div class="annual-label"><strong>Contenido + video</strong><span>Línea constante</span></div>
+              <div class="content-line" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="annual-row annual-row--sites" aria-label="Ocho experiencias web distribuidas durante el año como referencia">
+              <div class="annual-label"><strong>Experiencias web</strong><span>Entregas</span></div>
+              <div class="site-marker" style="--month:2"><strong>01</strong><span>Web</span></div>
+              <div class="site-marker" style="--month:3"><strong>02</strong><span>Web</span></div>
+              <div class="site-marker site-marker--optional" style="--month:4"><strong>+</strong><span>Ext.</span></div>
+              <div class="site-marker" style="--month:5"><strong>03</strong><span>Web</span></div>
+              <div class="site-marker" style="--month:6"><strong>04</strong><span>Web</span></div>
+              <div class="site-marker" style="--month:8"><strong>05</strong><span>Web</span></div>
+              <div class="site-marker" style="--month:9"><strong>06</strong><span>Web</span></div>
+              <div class="site-marker site-marker--optional" style="--month:10"><strong>+</strong><span>Ext.</span></div>
+              <div class="site-marker" style="--month:11"><strong>07</strong><span>Web</span></div>
+              <div class="site-marker" style="--month:12"><strong>08</strong><span>Web</span></div>
+            </div>
+            <div class="annual-summary"><strong>8 experiencias base + hasta 2 extensiones</strong><span>Las ocho propuestas se cotizan individualmente; cualquier ampliación se acuerda por separado.</span></div>
+            <p class="annual-caption">Mapa ilustrativo: el calendario final se acuerda según campañas, alcance y prioridades.</p>
+          </div>
+
+          <div class="annual-footer">
+            <div class="annual-cycle" aria-label="Ciclo de trabajo"><span><b>01</b>Priorizar</span><i>→</i><span><b>02</b>Crear</span><i>→</i><span><b>03</b>Entregar y publicar</span></div>
+            <div class="annual-roles">
+              <p><span>WIZARD</span><strong>Creatividad, producción y desarrollo.</strong></p>
+              <p><span>EQUIPO H1</span><strong>Publicación, operación y mantenimiento.</strong></p>
+            </div>
+          </div>
+          <p class="scope-note">Las ampliaciones posteriores se cotizan como proyectos independientes.</p>
+        </div>
+      </section>
+
+      <section class="slide slide--pricing" id="slide-6" data-theme="dark" data-slide="6" data-chapter="INVEST" data-route="hangar1.mx/inversion" aria-labelledby="slide-6-title" aria-hidden="true">
+        <img class="slide-media pricing-media" src="assets/images/300zx-aerial.webp" alt="Nissan 300ZX de Hangar1 visto desde arriba sobre la pista" width="1600" height="900" loading="lazy" decoding="async">
+        <div class="scene-shade scene-shade--pricing" aria-hidden="true"></div>
+        <div class="scene-grid" aria-hidden="true"></div>
+        <div class="scan-line" aria-hidden="true"></div>
+
+        <div class="slide__inner pricing-layout">
+          <div class="pricing-lead">
+            <p class="eyebrow">Programa base: ocho experiencias web.</p>
+            <h2 id="slide-6-title"><span class="title-solid">INVERSIÓN</span><em class="title-outline">POR PROYECTO</em></h2>
+            <p class="payment-rule">1 mes de crédito para el pago de cada proyecto.</p>
+          </div>
+
+          <div class="pricing-content web-surface" data-ui="PRICING / 8 BASE PROJECTS">
+            <div class="project-price-grid project-price-grid--tiers" aria-label="Tres niveles de inversión según el brief de cada proyecto">
+              <article class="project-price-card" data-price="10000"><header><span>BRIEF / 01</span><b>S</b></header><strong>$10,000</strong><small>Experiencia esencial</small><p>Historia compacta, interacción puntual y CTA comercial.</p></article>
+              <article class="project-price-card project-price-card--medium" data-price="15000"><header><span>BRIEF / 02</span><b>M</b></header><strong>$15,000</strong><small>Experiencia expandida</small><p>Mayor narrativa, producción e interacción.</p></article>
+              <article class="project-price-card project-price-card--advanced" data-price="25000"><header><span>BRIEF / 03</span><b>L</b></header><strong>$25,000</strong><small>Experiencia especial</small><p>Mayor profundidad creativa, tecnológica o de producción.</p></article>
+            </div>
+
+            <div class="commercial-notes">
+              <p><span>01 / CADA BRIEF DEFINE EL NIVEL</span>La inversión se determina proyecto por proyecto según narrativa, producción, interacción e integraciones.</p>
+              <p class="scope-extra"><span>02 / ALCANCE ADICIONAL</span>Si el brief rebasa el alcance contemplado en $25,000 MXN, Wizard lo comunicará y cotizará el extra antes de iniciar.</p>
+            </div>
+          </div>
+
+          <p class="tax-note">Facturación como persona física. Los impuestos y retenciones aplicables se reflejarán en la factura.</p>
+        </div>
+      </section>
+
+      <section class="slide slide--close" id="slide-7" data-theme="dark" data-slide="7" data-chapter="FUTURE" data-route="hangar1.mx/the-future" aria-labelledby="slide-7-title" aria-hidden="true">
+        <video class="slide-media close-media close-video" src="assets/video/wizard-future-robot.mp4" autoplay muted loop playsinline preload="metadata" aria-hidden="true" tabindex="-1"></video>
+        <div class="scene-shade scene-shade--close" aria-hidden="true"></div>
+
+        <div class="slide__inner close-layout">
+          <h2 id="slide-7-title" aria-label="Let’s conjure the future">
+            <span class="title-solid">LET’S</span>
+            <span class="title-outline">CONJURE</span>
+            <span class="title-outline">THE FUTURE</span>
+          </h2>
+          <div class="closing-signature">
+            <img src="assets/images/wizard-logo.png" alt="Wizard" width="1800" height="630" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <nav class="deck-nav" aria-label="Navegación de slides">
+      <button class="nav-button" id="prev-slide" type="button" aria-label="Slide anterior"><span aria-hidden="true">←</span><span class="nav-button__label">Anterior</span></button>
+      <div class="progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+      <div class="slide-dots" id="slide-dots" aria-label="Ir a una slide"></div>
+      <button class="nav-button" id="next-slide" type="button" aria-label="Siguiente slide"><span class="nav-button__label">Siguiente</span><span aria-hidden="true">→</span></button>
+    </nav>
+  </main>
+
+  <noscript><style>.deck-header,.deck-nav{position:relative}.slide{min-height:100vh}.slide[aria-hidden="true"]{display:block}.slides{height:auto}</style></noscript>
+  <script src="assets/app.js?v=3.35.0" defer></script>
+</body>
+</html>

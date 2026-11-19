@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hangar1">
+  <!-- La marca es «HANGAR» con el 1 en naranja dentro de un círculo. A 16 px no
+       cabe la palabra, así que se queda lo que la identifica: la H y el 1 con su
+       círculo, en los colores de la marca. -->
+  <rect width="64" height="64" rx="12" fill="#0A0A0A"/>
+  <text x="17" y="45" font-family="Arial Black, Arial, Helvetica, sans-serif"
+        font-size="38" font-weight="900" fill="#FFFFFF" text-anchor="middle">H</text>
+  <circle cx="45" cy="32" r="13" fill="none" stroke="#F26522" stroke-width="4"/>
+  <text x="45" y="43" font-family="Arial Black, Arial, Helvetica, sans-serif"
+        font-size="24" font-weight="900" fill="#F26522" text-anchor="middle">1</text>
+</svg>

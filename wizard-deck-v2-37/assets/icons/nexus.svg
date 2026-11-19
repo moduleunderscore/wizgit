@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+<style>.wl{fill:none;stroke:#00FF85;stroke-linecap:round;stroke-linejoin:round}.wg{stroke-width:9;stroke-opacity:.09}.wm{stroke-width:2.5;stroke-opacity:.65}.ws{stroke-width:2;stroke-opacity:.50}.wt{stroke-width:1.2;stroke-opacity:.32}.n1{fill:#00FF85;fill-opacity:.14}.n2{fill:#00FF85;fill-opacity:.86}.n3{fill:#00FF85;fill-opacity:.72}</style>
+<polygon class="wl wg" points="14,14 86,14 50,50"/>
+<polygon class="wl wg" points="14,86 86,86 50,50"/>
+<polygon class="wl wm" points="14,14 86,14 50,50"/>
+<polygon class="wl wm" points="14,86 86,86 50,50"/>
+<circle fill="none" stroke="#00FF85" stroke-width="8" stroke-opacity=".09" cx="50" cy="50" r="11"/>
+<circle fill="none" stroke="#00FF85" stroke-width="2" stroke-opacity=".62" cx="50" cy="50" r="11"/>
+<circle class="n1" cx="14" cy="14" r="5.5"/><circle class="n3" cx="14" cy="14" r="3"/>
+<circle class="n1" cx="86" cy="14" r="5.5"/><circle class="n3" cx="86" cy="14" r="3"/>
+<circle class="n1" cx="14" cy="86" r="5.5"/><circle class="n3" cx="14" cy="86" r="3"/>
+<circle class="n1" cx="86" cy="86" r="5.5"/><circle class="n3" cx="86" cy="86" r="3"/>
+<circle class="n2" cx="50" cy="50" r="3.5"/>
+</svg>

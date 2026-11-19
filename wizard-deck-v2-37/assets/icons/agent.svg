@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+<style>.wl{fill:none;stroke:#00FF85;stroke-linecap:round;stroke-linejoin:round}.wg{stroke-width:9;stroke-opacity:.09}.wm{stroke-width:2.5;stroke-opacity:.65}.ws{stroke-width:2;stroke-opacity:.50}.wt{stroke-width:1.2;stroke-opacity:.32}.n1{fill:#00FF85;fill-opacity:.14}.n2{fill:#00FF85;fill-opacity:.86}.n3{fill:#00FF85;fill-opacity:.72}</style>
+<line class="wl" stroke-width="13" stroke-opacity=".09" x1="25" y1="44" x2="25" y2="58"/>
+<line class="wl" stroke-width="13" stroke-opacity=".09" x1="75" y1="44" x2="75" y2="58"/>
+<line class="wl" stroke-width="6" stroke-opacity=".65" x1="25" y1="44" x2="25" y2="58"/>
+<line class="wl" stroke-width="6" stroke-opacity=".65" x1="75" y1="44" x2="75" y2="58"/>
+<line class="wl wg" x1="50" y1="30" x2="50" y2="16"/>
+<line class="wl wm" x1="50" y1="30" x2="50" y2="16"/>
+<rect class="wl wg" x="28" y="30" width="44" height="42" rx="11"/>
+<rect class="wl wm" x="28" y="30" width="44" height="42" rx="11"/>
+<circle class="n1" cx="50" cy="16" r="6"/><circle class="n3" cx="50" cy="16" r="3.5"/>
+<circle class="n1" cx="40" cy="51" r="7"/><circle class="n2" cx="40" cy="51" r="4.5"/>
+<circle class="n1" cx="60" cy="51" r="7"/><circle class="n2" cx="60" cy="51" r="4.5"/>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+<style>.wl{fill:none;stroke:#00FF85;stroke-linecap:round;stroke-linejoin:round}.wg{stroke-width:9;stroke-opacity:.09}.wm{stroke-width:2.5;stroke-opacity:.65}.ws{stroke-width:2;stroke-opacity:.50}.wt{stroke-width:1.2;stroke-opacity:.32}.n1{fill:#00FF85;fill-opacity:.14}.n2{fill:#00FF85;fill-opacity:.86}.n3{fill:#00FF85;fill-opacity:.72}</style>
+<polygon class="wl wg" points="58,12 33,52 50,52 42,88 67,48 50,48"/>
+<polygon class="wl wm" points="58,12 33,52 50,52 42,88 67,48 50,48"/>
+<circle class="n1" cx="58" cy="12" r="6.5"/><circle class="n2" cx="58" cy="12" r="4"/>
+<circle class="n1" cx="42" cy="88" r="6.5"/><circle class="n2" cx="42" cy="88" r="4"/>
+<circle class="n1" cx="50" cy="50" r="5"/><circle class="n3" cx="50" cy="50" r="2.8"/>
+</svg>

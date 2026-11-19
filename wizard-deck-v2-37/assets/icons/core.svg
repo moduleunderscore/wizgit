@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="512" height="512">
+<style>.wl{fill:none;stroke:#00FF85;stroke-linecap:round;stroke-linejoin:round}.wg{stroke-width:9;stroke-opacity:.09}.wm{stroke-width:2.5;stroke-opacity:.65}.ws{stroke-width:2;stroke-opacity:.50}.wt{stroke-width:1.2;stroke-opacity:.32}.n1{fill:#00FF85;fill-opacity:.14}.n2{fill:#00FF85;fill-opacity:.86}.n3{fill:#00FF85;fill-opacity:.72}</style>
+<polygon class="wl wg" points="50,12 83,31 83,69 50,88 17,69 17,31"/>
+<polygon class="wl wm" points="50,12 83,31 83,69 50,88 17,69 17,31"/>
+<line class="wl wt" x1="50" y1="12" x2="50" y2="50"/>
+<line class="wl wt" x1="83" y1="31" x2="50" y2="50"/>
+<line class="wl wt" x1="83" y1="69" x2="50" y2="50"/>
+<line class="wl wt" x1="50" y1="88" x2="50" y2="50"/>
+<line class="wl wt" x1="17" y1="69" x2="50" y2="50"/>
+<line class="wl wt" x1="17" y1="31" x2="50" y2="50"/>
+<circle class="n1" cx="50" cy="12" r="5"/><circle class="n3" cx="50" cy="12" r="2.8"/>
+<circle class="n1" cx="83" cy="31" r="5"/><circle class="n3" cx="83" cy="31" r="2.8"/>
+<circle class="n1" cx="83" cy="69" r="5"/><circle class="n3" cx="83" cy="69" r="2.8"/>
+<circle class="n1" cx="50" cy="88" r="5"/><circle class="n3" cx="50" cy="88" r="2.8"/>
+<circle class="n1" cx="17" cy="69" r="5"/><circle class="n3" cx="17" cy="69" r="2.8"/>
+<circle class="n1" cx="17" cy="31" r="5"/><circle class="n3" cx="17" cy="31" r="2.8"/>
+<circle class="n1" cx="50" cy="50" r="7"/><circle class="n2" cx="50" cy="50" r="4.5"/>
+</svg>

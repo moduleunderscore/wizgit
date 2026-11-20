@@ -14548,3 +14548,27 @@ body[data-active-chapter="07"] .quick-nav a[href="#chapter-07"] {
   }
 }
 
+/* V2.41 · Hero signature centered.
+ * The brand mark now owns the optical center of the opening frame instead of
+ * behaving like a lower-third. Technical rails remain pinned to their edges. */
+.chapter--cover .cover-stage__logo {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: min(46vw, 650px);
+  margin: 0;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 820px) {
+  .chapter--cover .cover-stage__logo {
+    width: min(74vw, 410px);
+  }
+}
+
+@media (max-height: 680px) and (max-width: 820px) {
+  .chapter--cover .cover-stage__logo {
+    width: min(68vw, 370px);
+    margin: 0;
+  }
+}
+

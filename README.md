@@ -4,7 +4,7 @@ Entregables web públicos de Wizard AI.
 
 ## Contenido
 
-- [`wizard-deck-v2-37/`](wizard-deck-v2-37/) — credenciales interactivas Wizard, versión `v2-40`.
+- [`wizard-deck-v2-37/`](wizard-deck-v2-37/) — credenciales interactivas Wizard, versión `v2-41`.
 
-Sitio publicado: <https://wizard-credenciales-emilio.robust-hare-3246.chatgpt.site/?v=v2-40#cover>
+Sitio publicado: <https://wizard-credenciales-emilio.robust-hare-3246.chatgpt.site/?v=v2-41#cover>
 

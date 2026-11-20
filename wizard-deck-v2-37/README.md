@@ -1,4 +1,4 @@
-# Wizard Deck · v2-38
+# Wizard Deck · v2-39
 
 Presentación web estática para acompañar una conversación comercial de Wizard AI. El deck explica la propuesta, el proceso, las máquinas y los casos de éxito sin ejecutar procesos reales ni enviar información.
 
@@ -18,7 +18,7 @@ Después visita <http://127.0.0.1:4173/>.
 - `data.js` — catálogo, videos, casos y fuentes de verdad editoriales.
 - `script.js` — navegación, estado, reproducción y comportamiento responsive.
 - `styles.css` y `experience-v2.css` — identidad visual, layouts y movimiento.
-- `assets/` — logos, iconos, videos de capítulos, recorridos de producto y película del epílogo.
+- `assets/` — logos, iconos, video cinematográfico de portada, videos de capítulos, recorridos de producto y película del epílogo.
 - `downloads/` — resumen imprimible y contexto preparado para IA.
 
 ## Productos con recorrido real
@@ -26,6 +26,10 @@ Después visita <http://127.0.0.1:4173/>.
 Pulse, Sprint, Agent, Core, Arkana, Clone U, Coach, Squad, Connect y Nexus cuentan con video suministrado por Wizard. Vault permanece marcado como material pendiente; no se simula una demo.
 
 Agent conserva el acceso externo a [The Orb](https://themagicorb.netlify.app/) dentro de su ficha.
+
+## Portada
+
+La apertura usa el video 1920×1080 de astronauta + robot suministrado por Wizard. La película corre silenciada sólo mientras la portada está visible; la firma Wizard ocupa el riel inferior y el encuadre móvil conserva a ambos personajes sin depender del antiguo canvas WebGL.
 
 ## Epílogo
 
@@ -41,10 +45,10 @@ El último slide adapta la arquitectura cinematográfica del cierre de Digital S
 
 ## Publicación
 
-Versión pública `v2-38`, publicación 74:
+Versión pública `v2-39`, publicación 75:
 
-<https://wizard-credenciales-emilio.robust-hare-3246.chatgpt.site/?v=v2-38#cover>
+<https://wizard-credenciales-emilio.robust-hare-3246.chatgpt.site/?v=v2-39#cover>
 
-La carpeta conserva el nombre estable `wizard-deck-v2-37/` para no romper el enlace ya entregado. Su contenido corresponde a la versión V2.38.
+La carpeta conserva el nombre estable `wizard-deck-v2-37/` para no romper el enlace ya entregado. Su contenido corresponde a la versión V2.39.
 
 Los claims, activos y material de clientes deben conservar su fuente y autorización. No presentar placeholders como resultados medidos.

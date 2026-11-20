@@ -62,9 +62,9 @@
       href="assets/brand/wizard-favicon-180.png?v=20261017-favicon-01"
     />
     <link rel="stylesheet" href="styles.css?v=20261019-v2-01" />
-    <link rel="stylesheet" href="experience-v2.css?v=20261119-v2-38" />
-    <script src="data.js?v=20261119-v2-38" defer></script>
-    <script src="script.js?v=20261119-v2-38" defer></script>
+    <link rel="stylesheet" href="experience-v2.css?v=20261119-v2-39" />
+    <script src="data.js?v=20261119-v2-39" defer></script>
+    <script src="script.js?v=20261119-v2-39" defer></script>
   </head>
   <body class="is-cover">
     <a class="skip-link" href="#cover">Saltar a la presentación</a>
@@ -119,15 +119,37 @@
         aria-label="Wizard — Agencia IA Aplicada"
       >
         <div class="chapter__frame cover-stage" data-reveal>
-          <canvas class="cover-stage__tubes" data-tubes-background aria-hidden="true"></canvas>
-          <img
-            class="cover-stage__logo"
-            src="assets/wizard-logo.png"
-            alt="Wizard — Agencia IA Aplicada"
-            width="1920"
-            height="672"
-            decoding="async"
-          />
+          <video
+            class="cover-stage__media"
+            src="assets/cover/astronaut-robot-booth.mp4"
+            data-cover-video
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            aria-label="Astronauta y robot compartiendo una cabina"
+          ></video>
+          <div class="cover-stage__veil" aria-hidden="true"></div>
+          <div class="cover-stage__composition">
+            <p class="cover-stage__meta" aria-hidden="true">
+              <span>00 / WIZARD</span>
+              <span>AGENCIA DE IA APLICADA</span>
+            </p>
+            <img
+              class="cover-stage__logo"
+              src="assets/wizard-logo.png"
+              alt="Wizard — Agencia IA Aplicada"
+              width="1920"
+              height="672"
+              decoding="async"
+            />
+            <p class="cover-stage__signal" aria-hidden="true">
+              <span>CREATIVIDAD · IA · CÓDIGO</span>
+              <i></i>
+              <span>SEÑAL ACTIVA</span>
+            </p>
+          </div>
         </div>
       </section>
 

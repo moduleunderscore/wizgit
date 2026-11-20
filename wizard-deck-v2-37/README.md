@@ -1,4 +1,4 @@
-# Wizard Deck · v2-41
+# Wizard Deck · v2-42
 
 Presentación web estática para acompañar una conversación comercial de Wizard AI. El deck explica la propuesta, el proceso, las máquinas y los casos de éxito sin ejecutar procesos reales ni enviar información.
 
@@ -33,7 +33,7 @@ La apertura usa el video 1920×1080 de astronauta + robot suministrado por Wizar
 
 ## Sistema editorial
 
-La V2.41 unifica las ocho paradas con una gramática sólido–outline: premisas blancas, señales verdes delineadas, riel técnico compacto, paneles traslúcidos y cortes de esquina compartidos. Es una capa visual; no altera el orden, la información, los productos, los casos ni las descargas. El logo de portada ocupa el centro geométrico del hero con una escala más contenida. El barrido de entrada ocurre una sola vez en escritorio y se desactiva en móvil y con `prefers-reduced-motion`.
+La V2.42 unifica las ocho paradas con una gramática sólido–outline: premisas blancas, señales verdes delineadas, riel técnico compacto, paneles traslúcidos y cortes de esquina compartidos. Es una capa visual; no altera el orden, la información, los productos, los casos ni las descargas. El logo de portada ocupa el centro geométrico del hero con una escala más contenida. El slide 02 conserva su remate verde sólido, sin outline. El barrido de entrada ocurre una sola vez en escritorio y se desactiva en móvil y con `prefers-reduced-motion`.
 
 ## Epílogo
 
@@ -49,10 +49,10 @@ El último slide adapta la arquitectura cinematográfica del cierre de Digital S
 
 ## Publicación
 
-Versión pública `v2-41`, publicación 77:
+Versión pública `v2-42`, publicación 78:
 
-<https://wizard-credenciales-emilio.robust-hare-3246.chatgpt.site/?v=v2-41#cover>
+<https://wizard-credenciales-emilio.robust-hare-3246.chatgpt.site/?v=v2-42#cover>
 
-La carpeta conserva el nombre estable `wizard-deck-v2-37/` para no romper el enlace ya entregado. Su contenido corresponde a la versión V2.41.
+La carpeta conserva el nombre estable `wizard-deck-v2-37/` para no romper el enlace ya entregado. Su contenido corresponde a la versión V2.42.
 
 Los claims, activos y material de clientes deben conservar su fuente y autorización. No presentar placeholders como resultados medidos.

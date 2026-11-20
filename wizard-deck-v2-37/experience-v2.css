@@ -14586,3 +14586,12 @@ body[data-active-chapter="07"] .quick-nav a[href="#chapter-07"] {
   border-top: 0;
 }
 
+/* V2.44 · The first two screens return to clean, solid statements.
+ * The cover no longer carries the redundant signal rail, and the revolution
+ * conclusion is filled Wizard green instead of outlined. */
+.chapter--hero .revolution-stage h1 > .title-signal {
+  color: var(--signal) !important;
+  -webkit-text-stroke: 0 transparent;
+  text-shadow: 0 0 22px rgba(57, 255, 20, 0.12);
+}
+

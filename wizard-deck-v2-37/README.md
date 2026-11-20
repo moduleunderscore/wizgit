@@ -1,8 +1,8 @@
-# Wizard Deck · v2-43
+# Wizard Deck · v2-44
 
 Presentación web estática para acompañar una conversación comercial de Wizard AI. El deck explica la propuesta, el proceso, las máquinas y los casos de éxito sin ejecutar procesos reales ni enviar información.
 
-Esta revisión elimina la línea divisoria innecesaria del slide 01 y conserva intactos su copy, video, retícula y comportamiento responsive.
+Esta revisión elimina la franja “SEÑAL ACTIVA” de la portada y presenta “YA ESTÁ SUCEDIENDO” en verde sólido, sin outline. Conserva intactos el resto del copy, videos, retícula y comportamiento responsive.
 
 ## Abrir localmente
 

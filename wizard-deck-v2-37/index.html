@@ -62,9 +62,9 @@
       href="assets/brand/wizard-favicon-180.png?v=20261017-favicon-01"
     />
     <link rel="stylesheet" href="styles.css?v=20261019-v2-01" />
-    <link rel="stylesheet" href="experience-v2.css?v=20261119-v2-37" />
-    <script src="data.js?v=20261119-v2-37" defer></script>
-    <script src="script.js?v=20261119-v2-37" defer></script>
+    <link rel="stylesheet" href="experience-v2.css?v=20261119-v2-38" />
+    <script src="data.js?v=20261119-v2-38" defer></script>
+    <script src="script.js?v=20261119-v2-38" defer></script>
   </head>
   <body class="is-cover">
     <a class="skip-link" href="#cover">Saltar a la presentación</a>
@@ -730,27 +730,47 @@
         aria-label="Let’s conjure the future"
       >
         <div class="chapter__frame epilogue-stage" data-reveal>
-          <canvas class="epilogue-stage__tubes" data-tubes-background data-palette="1" aria-hidden="true"></canvas>
+          <video
+            class="epilogue-stage__media"
+            src="assets/outro/wizard-future-robot.mp4"
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            data-epilogue-video
+            aria-hidden="true"
+            tabindex="-1"
+          ></video>
           <div class="epilogue-stage__veil" aria-hidden="true"></div>
-          <div class="epilogue-stage__brand">
-            <img
-              src="assets/wizard-logo.png"
-              alt="Wizard — Agencia IA Aplicada"
-              width="1920"
-              height="672"
-              decoding="async"
-            />
-            <p><span>Let’s conjure</span> <strong>the future</strong></p>
+          <div class="epilogue-stage__composition">
+            <div class="epilogue-stage__brand">
+              <h2 class="epilogue-stage__headline" aria-label="Let’s conjure the future">
+                <span>LET’S</span>
+                <strong>CONJURE</strong>
+                <strong>THE FUTURE</strong>
+              </h2>
+              <div class="epilogue-stage__signature">
+                <img
+                  src="assets/wizard-logo.png"
+                  alt="Wizard — Agencia IA Aplicada"
+                  width="1920"
+                  height="672"
+                  decoding="async"
+                />
+              </div>
+            </div>
             <div class="epilogue-downloads" aria-label="Kit descargable de Wizard">
               <a href="downloads/wizard-resumen-imprimible.pdf" download="Wizard_Resumen_Imprimible.pdf">
-                <span>PDF / CARTA HORIZONTAL</span>
+                <span class="epilogue-downloads__format">PDF / CARTA HORIZONTAL</span>
                 <strong>Resumen imprimible</strong>
                 <small>Wizard, proceso, máquinas y contacto.</small>
+                <span class="epilogue-downloads__action" aria-hidden="true">Descargar PDF</span>
               </a>
               <a href="downloads/wizard-contexto-para-ia.md" download="Wizard_Contexto_para_IA.md">
-                <span>MD / AI PREPARED</span>
+                <span class="epilogue-downloads__format">MD / AI PREPARED</span>
                 <strong>Contexto para tu IA</strong>
                 <small>Descárgalo y úsalo con tu asistente de confianza.</small>
+                <span class="epilogue-downloads__action" aria-hidden="true">Descargar MD</span>
               </a>
             </div>
           </div>
